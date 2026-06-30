@@ -5,7 +5,7 @@ import { getAllProducts } from '@/lib/db';
 import { CATEGORIES } from '@/lib/products-data';
 import ProductCard from '@/components/ProductCard';
 
-export const metadata = { title: 'Sulfo Rwanda — Quality Products Since 1962' };
+export const metadata = { title: 'Sulfo Rwanda Quality Products Since 1962' };
 
 const HERO_IMGS = [
   'https://sulforwanda.com/wp-content/uploads/2024/01/About-us-top-image-2.jpg',
@@ -49,7 +49,7 @@ export default async function HomePage() {
               for Every Home
             </h1>
             <p className="text-white/70 text-lg leading-relaxed mb-8 max-w-lg">
-              From powerful laundry soaps to premium skin care — Sulfo Rwanda has been
+              From powerful laundry soaps to premium skin care Sulfo Rwanda has been
               a trusted household name for over 60 years. ISO certified. Proudly Rwandan.
             </p>
             <div className="flex flex-wrap gap-3">
@@ -223,7 +223,7 @@ export default async function HomePage() {
             </h2>
             <p className="text-white/60 leading-relaxed mb-4">
               Founded by Tajdin H. Jaffer and Khatun Jaffer, Sulfo Rwanda Industries has grown from a single factory
-              to a nationally recognised manufacturer of over 150 quality products — from laundry soap to ISO-certified spring water.
+              to a nationally recognised manufacturer of over 150 quality products from laundry soap to ISO-certified spring water.
             </p>
             <p className="text-white/60 leading-relaxed mb-8">
               Today, under MD Dharmarajan Hariharan, Sulfo continues to invest in sustainable production,
