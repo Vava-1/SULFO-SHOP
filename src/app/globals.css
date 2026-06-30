@@ -41,6 +41,7 @@ body {
 ::-webkit-scrollbar-track { background: #f0f0eb; }
 ::-webkit-scrollbar-thumb { background: var(--color-primary); border-radius: 3px; }
 
+@layer components {
 /* ── Buttons ── */
 .btn-primary {
   display: inline-flex; align-items: center; justify-content: center;
@@ -203,3 +204,4 @@ body {
 }
 .admin-nav-link:hover { color: white; background: rgba(255,255,255,0.1); }
 .admin-nav-link.active { color: white; background: rgba(255,255,255,0.15); }
+}
