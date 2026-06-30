@@ -48,20 +48,24 @@ export default function Footer() {
             </p>
             <div className="flex gap-3">
               <a href="https://www.facebook.com/profile.php?id=61560045512204" target="_blank" rel="noopener noreferrer"
-                className="w-9 h-9 bg-white/10 rounded-xl hover:bg-primary flex items-center justify-center transition-colors">
-                <SiFacebook className="w-4 h-4" />
+                className="w-9 h-9 rounded-xl flex items-center justify-center transition-transform hover:scale-110"
+                style={{ backgroundColor: '#1877F2' }}>
+                <SiFacebook className="w-4 h-4 text-white" />
               </a>
               <a href="https://www.instagram.com/sulfo_rwanda/" target="_blank" rel="noopener noreferrer"
-                className="w-9 h-9 bg-white/10 rounded-xl hover:bg-primary flex items-center justify-center transition-colors">
-                <SiInstagram className="w-4 h-4" />
+                className="w-9 h-9 rounded-xl flex items-center justify-center transition-transform hover:scale-110"
+                style={{ background: 'linear-gradient(45deg, #FEDA75, #FA7E1E, #D62976, #962FBF, #4F5BD5)' }}>
+                <SiInstagram className="w-4 h-4 text-white" />
               </a>
               <a href="https://www.tiktok.com/@sulfo_rwanda" target="_blank" rel="noopener noreferrer"
-                className="w-9 h-9 bg-white/10 rounded-xl hover:bg-primary flex items-center justify-center transition-colors">
-                <SiTiktok className="w-4 h-4" />
+                className="w-9 h-9 rounded-xl flex items-center justify-center transition-transform hover:scale-110"
+                style={{ backgroundColor: '#000000' }}>
+                <SiTiktok className="w-4 h-4 text-white" />
               </a>
               <a href="https://www.youtube.com/@sulfo_rwanda" target="_blank" rel="noopener noreferrer"
-                className="w-9 h-9 bg-white/10 rounded-xl hover:bg-primary flex items-center justify-center transition-colors">
-                <SiYoutube className="w-4 h-4" />
+                className="w-9 h-9 rounded-xl flex items-center justify-center transition-transform hover:scale-110"
+                style={{ backgroundColor: '#FF0000' }}>
+                <SiYoutube className="w-4 h-4 text-white" />
               </a>
             </div>
           </div>
