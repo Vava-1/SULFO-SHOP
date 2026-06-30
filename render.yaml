@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: sulfo-rwanda-shop
+    env: node
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    plan: free
+    envVars:
+      - key: JWT_SECRET
+        generateValue: true
+      - key: DATABASE_PATH
+        value: /tmp/sulfo-db.json
+      - key: NODE_ENV
+        value: production
+      - key: NEXT_PUBLIC_APP_URL
+        value: https://sulfo-rwanda-shop.onrender.com
