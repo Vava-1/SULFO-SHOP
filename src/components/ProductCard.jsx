@@ -28,7 +28,7 @@ const TAG_LABELS = {
   heritage: 'Since 1962',
   essential: 'Essential',
   medical: 'Medical',
-  antibacterial: 'Anti-bacterial',
+  antibacterial: 'Antibacterial',
   bulk: 'Bulk',
   new: 'New',
 };
